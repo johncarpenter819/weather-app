@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("./background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#app{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    border: 3px solid rgba(255, 255, 255, .20);
+    backdrop-filter: blur(3px);
+    box-sizing: border-box;
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid rgba(255, 255, 255, .20);;
+}
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid rgba(255, 255, 255, .20);;
+}
+button:hover{
+    transform: scale(1);
+    background: rgb(1, 105, 241);
+}
+#weather-info{
+    margin-top: 20px;
+}
+#loading{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 20px;
+}
